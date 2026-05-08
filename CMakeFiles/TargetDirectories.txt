@@ -1,0 +1,3 @@
+C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/CMakeFiles/frametimer.dir
+C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/CMakeFiles/edit_cache.dir
+C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/CMakeFiles/rebuild_cache.dir

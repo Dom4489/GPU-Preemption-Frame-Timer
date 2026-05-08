@@ -13,6 +13,7 @@ endif()
  
 add_executable(frametimer
     src/main.cpp
+    include/Clock.cpp
 )
  
 target_include_directories(frametimer PRIVATE include)
