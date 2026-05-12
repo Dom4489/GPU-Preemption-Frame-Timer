@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/CMakeLists.txt"
+  "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/CMakeLists.txt"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"

@@ -57,10 +57,10 @@ RM = C:/msys64/ucrt64/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer"
+CMAKE_SOURCE_DIR = "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build"
+CMAKE_BINARY_DIR = "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ include/Clock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/frametimer.dir/build.make CMakeFiles/frametimer.dir/include/Clock.cpp.s
 .PHONY : include/Clock.cpp.s
 
+include/FrameTimer.obj: include/FrameTimer.cpp.obj
+.PHONY : include/FrameTimer.obj
+
+# target to build an object file
+include/FrameTimer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frametimer.dir/build.make CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj
+.PHONY : include/FrameTimer.cpp.obj
+
+include/FrameTimer.i: include/FrameTimer.cpp.i
+.PHONY : include/FrameTimer.i
+
+# target to preprocess a source file
+include/FrameTimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frametimer.dir/build.make CMakeFiles/frametimer.dir/include/FrameTimer.cpp.i
+.PHONY : include/FrameTimer.cpp.i
+
+include/FrameTimer.s: include/FrameTimer.cpp.s
+.PHONY : include/FrameTimer.s
+
+# target to generate assembly for a file
+include/FrameTimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frametimer.dir/build.make CMakeFiles/frametimer.dir/include/FrameTimer.cpp.s
+.PHONY : include/FrameTimer.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -189,6 +213,9 @@ help:
 	@echo "... include/Clock.obj"
 	@echo "... include/Clock.i"
 	@echo "... include/Clock.s"
+	@echo "... include/FrameTimer.obj"
+	@echo "... include/FrameTimer.i"
+	@echo "... include/FrameTimer.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

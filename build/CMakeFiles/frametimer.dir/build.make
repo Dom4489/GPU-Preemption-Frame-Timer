@@ -53,10 +53,10 @@ RM = C:/msys64/ucrt64/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer"
+CMAKE_SOURCE_DIR = "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build"
+CMAKE_BINARY_DIR = "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/frametimer.dir/depend.make
@@ -74,48 +74,65 @@ CMakeFiles/frametimer.dir/codegen:
 
 CMakeFiles/frametimer.dir/src/main.cpp.obj: CMakeFiles/frametimer.dir/flags.make
 CMakeFiles/frametimer.dir/src/main.cpp.obj: CMakeFiles/frametimer.dir/includes_CXX.rsp
-CMakeFiles/frametimer.dir/src/main.cpp.obj: C:/Users/Dominic/Personal\ Projects/GPU-Preemption-Frame-Timer/src/main.cpp
+CMakeFiles/frametimer.dir/src/main.cpp.obj: C:/Users/domin/OneDrive/桌面/Pesronal\ Projects/GPU-Preemption-Frame-Timer/src/main.cpp
 CMakeFiles/frametimer.dir/src/main.cpp.obj: CMakeFiles/frametimer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/frametimer.dir/src/main.cpp.obj"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/frametimer.dir/src/main.cpp.obj -MF CMakeFiles/frametimer.dir/src/main.cpp.obj.d -o CMakeFiles/frametimer.dir/src/main.cpp.obj -c "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/frametimer.dir/src/main.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/frametimer.dir/src/main.cpp.obj -MF CMakeFiles/frametimer.dir/src/main.cpp.obj.d -o CMakeFiles/frametimer.dir/src/main.cpp.obj -c "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/src/main.cpp"
 
 CMakeFiles/frametimer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/frametimer.dir/src/main.cpp.i"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" > CMakeFiles/frametimer.dir/src/main.cpp.i
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" > CMakeFiles/frametimer.dir/src/main.cpp.i
 
 CMakeFiles/frametimer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/frametimer.dir/src/main.cpp.s"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" -o CMakeFiles/frametimer.dir/src/main.cpp.s
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" -o CMakeFiles/frametimer.dir/src/main.cpp.s
 
 CMakeFiles/frametimer.dir/include/Clock.cpp.obj: CMakeFiles/frametimer.dir/flags.make
 CMakeFiles/frametimer.dir/include/Clock.cpp.obj: CMakeFiles/frametimer.dir/includes_CXX.rsp
-CMakeFiles/frametimer.dir/include/Clock.cpp.obj: C:/Users/Dominic/Personal\ Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp
+CMakeFiles/frametimer.dir/include/Clock.cpp.obj: C:/Users/domin/OneDrive/桌面/Pesronal\ Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp
 CMakeFiles/frametimer.dir/include/Clock.cpp.obj: CMakeFiles/frametimer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/frametimer.dir/include/Clock.cpp.obj"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/frametimer.dir/include/Clock.cpp.obj -MF CMakeFiles/frametimer.dir/include/Clock.cpp.obj.d -o CMakeFiles/frametimer.dir/include/Clock.cpp.obj -c "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/frametimer.dir/include/Clock.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/frametimer.dir/include/Clock.cpp.obj -MF CMakeFiles/frametimer.dir/include/Clock.cpp.obj.d -o CMakeFiles/frametimer.dir/include/Clock.cpp.obj -c "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp"
 
 CMakeFiles/frametimer.dir/include/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/frametimer.dir/include/Clock.cpp.i"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" > CMakeFiles/frametimer.dir/include/Clock.cpp.i
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" > CMakeFiles/frametimer.dir/include/Clock.cpp.i
 
 CMakeFiles/frametimer.dir/include/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/frametimer.dir/include/Clock.cpp.s"
-	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" -o CMakeFiles/frametimer.dir/include/Clock.cpp.s
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" -o CMakeFiles/frametimer.dir/include/Clock.cpp.s
+
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj: CMakeFiles/frametimer.dir/flags.make
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj: CMakeFiles/frametimer.dir/includes_CXX.rsp
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj: C:/Users/domin/OneDrive/桌面/Pesronal\ Projects/GPU-Preemption-Frame-Timer/include/FrameTimer.cpp
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj: CMakeFiles/frametimer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj -MF CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj.d -o CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj -c "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/FrameTimer.cpp"
+
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/frametimer.dir/include/FrameTimer.cpp.i"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/FrameTimer.cpp" > CMakeFiles/frametimer.dir/include/FrameTimer.cpp.i
+
+CMakeFiles/frametimer.dir/include/FrameTimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/frametimer.dir/include/FrameTimer.cpp.s"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/FrameTimer.cpp" -o CMakeFiles/frametimer.dir/include/FrameTimer.cpp.s
 
 # Object files for target frametimer
 frametimer_OBJECTS = \
 "CMakeFiles/frametimer.dir/src/main.cpp.obj" \
-"CMakeFiles/frametimer.dir/include/Clock.cpp.obj"
+"CMakeFiles/frametimer.dir/include/Clock.cpp.obj" \
+"CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj"
 
 # External object files for target frametimer
 frametimer_EXTERNAL_OBJECTS =
 
 frametimer.exe: CMakeFiles/frametimer.dir/src/main.cpp.obj
 frametimer.exe: CMakeFiles/frametimer.dir/include/Clock.cpp.obj
+frametimer.exe: CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj
 frametimer.exe: CMakeFiles/frametimer.dir/build.make
 frametimer.exe: CMakeFiles/frametimer.dir/linkLibs.rsp
 frametimer.exe: CMakeFiles/frametimer.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable frametimer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable frametimer.exe"
 	C:/msys64/ucrt64/bin/cmake.exe -E rm -f CMakeFiles/frametimer.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/frametimer.dir/objects.a @CMakeFiles/frametimer.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/c++.exe -Wl,--whole-archive CMakeFiles/frametimer.dir/objects.a -Wl,--no-whole-archive -o frametimer.exe -Wl,--out-implib,libframetimer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/frametimer.dir/linkLibs.rsp
@@ -129,6 +146,6 @@ CMakeFiles/frametimer.dir/clean:
 .PHONY : CMakeFiles/frametimer.dir/clean
 
 CMakeFiles/frametimer.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build" "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles/frametimer.dir/DependInfo.cmake" "--color=$(COLOR)" frametimer
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build" "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles/frametimer.dir/DependInfo.cmake" "--color=$(COLOR)" frametimer
 .PHONY : CMakeFiles/frametimer.dir/depend
 

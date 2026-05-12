@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" "CMakeFiles/frametimer.dir/include/Clock.cpp.obj" "gcc" "CMakeFiles/frametimer.dir/include/Clock.cpp.obj.d"
-  "C:/Users/Dominic/Personal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" "CMakeFiles/frametimer.dir/src/main.cpp.obj" "gcc" "CMakeFiles/frametimer.dir/src/main.cpp.obj.d"
+  "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/Clock.cpp" "CMakeFiles/frametimer.dir/include/Clock.cpp.obj" "gcc" "CMakeFiles/frametimer.dir/include/Clock.cpp.obj.d"
+  "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/include/FrameTimer.cpp" "CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj" "gcc" "CMakeFiles/frametimer.dir/include/FrameTimer.cpp.obj.d"
+  "C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/src/main.cpp" "CMakeFiles/frametimer.dir/src/main.cpp.obj" "gcc" "CMakeFiles/frametimer.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

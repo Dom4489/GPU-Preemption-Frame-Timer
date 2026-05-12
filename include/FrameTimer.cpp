@@ -1,33 +1,49 @@
-#pragma once
-#include "Clock.h"
-#include "FrameBuffer.h"
-#include <cstdint>
-#include <functional>
+#include "FrameTimer.h"
 
-struct SpikeEvent {
-    // When stutter began
-    int64_t timestamp_ns;
-    // Frame time of the spike
-    double frame_time_ns;
-    // Rolling average frame time at the time of the spike
-    double rolling_avg_ns;
-    // Multiplier for the spike
-    double multiplier;
-    // QPC ticks at the time of the spike
-    int64_t qpc_ticks;
-};
+FrameTimer::FrameTimer(SpikeCallback on_spike) : on_spike_(std::move(on_spike)) {}
 
-using SpikeCallback = std::function<void(const SpikeEvent&)>;
-class FrameTimer {
-    public:
-       explicit FrameTimer(SpikeCallback on_spike = nullptr) : on_spike_(std::move(on_spike)) {}
+int64_t FrameTimer::mark() {
+    int64_t ticks = clock_.now_ticks();
+    int64_t now = clock_.ticks_to_ns(ticks);
 
-        // Call this every frame with the latest frame time in nanoseconds
-        void tick(int64_t frame_time_ns);
+    // First call, arm timer and return 0
+    if (last_ns_ == 0) {
+        last_ns_ = now;
+        last_ticks_ = ticks;
+        return 0;
+    }
+    // calculate frame time and push to buffer
+    int64_t frame_time = now - last_ns_;
+    buffer_.push(frame_time);
+    // check for spike and fire callback if registered
+    if (on_spike_ && buffer_.is_spike()) {
+        SpikeEvent evt{};
+        evt.timestamp_ns = last_ns_;
+        evt.frame_time_ns = frame_time;
+        evt.rolling_avg_ns = buffer_.rolling_avg_ns();
+        evt.multiplier = static_cast<double>(frame_time) /evt.rolling_avg_ns;
+        evt.qpc_ticks = last_ticks_;
+        on_spike_(evt);
+    }
 
-    private:
-        SpikeCallback callback_;
-        double spike_threshold_;
-        size_t rolling_window_;
-        FrameBuffer<> frame_buffer_;
-};
+    // update time stamps for next call
+    last_ns_ = now;
+    last_ticks_ = ticks;
+    return frame_time;
+}
+
+const FrameBuffer<>& FrameTimer::buffer() const {
+    return buffer_;
+}
+
+double FrameTimer::current_fps() const {
+    return buffer_.avg_fps();
+}
+
+double FrameTimer::low1_fps() const {
+    return 1e9 / buffer_.percentile_ns(99.0);
+}
+
+double FrameTimer::low01_fps() const {
+    return 1e9 / buffer_.percentile_ns(99.9);
+}
