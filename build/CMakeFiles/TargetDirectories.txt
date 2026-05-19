@@ -1,3 +1,0 @@
-C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles/frametimer.dir
-C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles/edit_cache.dir
-C:/Users/domin/OneDrive/桌面/Pesronal Projects/GPU-Preemption-Frame-Timer/build/CMakeFiles/rebuild_cache.dir
