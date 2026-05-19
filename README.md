@@ -27,19 +27,19 @@ After taking my operating systems course at UBC and getting interested in how dr
 ## Demo 🎬
 
 ### Driver loaded and running in VM
-<!-- Add screenshot of sc query PreemptionTracker showing RUNNING -->
+![Screenshot](images/DriverLoadedInVM.png)
 
 ### frametimer.exe output
-<!-- Add screenshot of terminal output showing CONNECTED and live FPS bar -->
+![Screenshot](images/frametimer.exeOutput.png)
 
 ### Spike detection with kernel correlation
-<!-- Add screenshot of a SPIKE block showing preemption event offset -->
+![Screenshot](images/SpikeDetection.png)
 
 ### Live demo
 <!-- Add your GIF here: ![demo](demo.gif) -->
 
 ### Session summary
-<!-- Add screenshot of session summary -->
+![Screenshot](images/SessionSummary.png)
 
 ---
 
