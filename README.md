@@ -91,7 +91,7 @@ After taking my operating systems course at UBC and getting interested in how dr
 
 ## How It Was Built 🔧
 
-* User space (cross-platform C++17):**
+** User space (cross-platform C++17):**
 - Built and tested `Clock`, `FrameBuffer`, `FrameTimer`
 - Wrote a 15-test hand-rolled test harness verifying monotonicity, delta accuracy, spike detection, percentile math, and ring buffer wrapping
 - Designed `SpikeEvent` with a `qpc_ticks` field from the start
