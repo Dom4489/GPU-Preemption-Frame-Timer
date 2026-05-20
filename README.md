@@ -36,7 +36,7 @@ After taking my operating systems course at UBC and getting interested in how dr
 ![Screenshot](images/SpikeDetection.png)
 
 ### Live demo
-<!-- Add your GIF here: ![demo](demo.gif) -->
+![demo](Videos/Preemptiontracker.gif)
 
 ### Session summary
 ![Screenshot](images/SessionSummary.png)
