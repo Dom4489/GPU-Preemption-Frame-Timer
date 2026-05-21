@@ -18,6 +18,7 @@ After taking my operating systems course at UBC and getting interested in how dr
 ✅ Maintains a ring buffer of the last 512 frame times for rolling statistics  
 ✅ Detects frame spikes using a configurable multiplier threshold (default 2x baseline)  
 ✅ Reports **1% low** and **0.1% low FPS**
+
 ✅ Runs a kernel-mode Windows driver (`.sys`) that captures simulated GPU preemption events via a `KTIMER`/`KDPC` pipeline (same interrupt deferral mechanism used in real GPU drivers)  
 ✅ Exposes kernel events to user space over a custom IOCTL interface  
 ✅ Correlates each frame spike with any preemption events buffered by the driver, printing the time offset in milliseconds  
